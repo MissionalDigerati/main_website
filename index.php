@@ -29,11 +29,11 @@
 	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
 	  <![endif]-->
 			<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="javascript/bootstrap.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="javascript/bootstrap-dropdown.min.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/javascript/bootstrap.min.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/javascript/bootstrap-dropdown.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="javascript/application.js"></script>
-			<link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css" charset="utf-8">
-			<link rel="stylesheet" href="stylesheets/bootstrap-responsive.min.css" type="text/css" charset="utf-8">
+			<link rel="stylesheet" href="vendor/stylesheets/bootstrap.min.css" type="text/css" charset="utf-8">
+			<link rel="stylesheet" href="vendor/stylesheets/bootstrap-responsive.min.css" type="text/css" charset="utf-8">
 			<link rel="stylesheet" href="stylesheets/application.css" type="text/css" charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>

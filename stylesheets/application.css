@@ -1,0 +1,81 @@
+/*
+ * This file is part of ProgramName.
+ * 
+ * ProgramName is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * ProgramName is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see 
+ * <http://www.gnu.org/licenses/>.
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ * @copyright Copyright 2012 Missional Digerati
+ * 
+*/
+/*Customize Twitter Bootstrap*/
+body {
+	padding-top: 120px;
+}
+.navbar-inner {
+  background-color: #242424; /* background color will be black for all browsers */
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+.navbar .container {
+	height: 80px;
+}
+.navbar .brand {
+	padding: 16px 20px;
+}
+.navbar .nav {
+	top: 37px;
+}
+.navbar .nav > li > a {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.navbar .nav > li.donate .btn {
+	margin-left: 20px;
+}
+.navbar .nav > li > a:hover {
+	color: #cbfe01;
+	text-transform: uppercase;
+}
+/*structure*/
+.slider .inner {
+	min-height: 450px;
+}
+.content .inner {
+	min-height: 200px;
+}
+.extra .inner {
+	color: white;
+	background-color: #242424;
+	border-top: 1px solid #000000;
+	min-height: 200px;
+}
+div.mission {
+	padding-top: 10px;
+	text-align: center;
+}
+div.mission p {
+	font-size: 16px;
+	line-height: 30px;
+}
+p .highlighted {
+	color: #cbfe01;
+	font-weight: bold;
+}

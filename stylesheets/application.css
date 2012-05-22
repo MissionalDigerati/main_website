@@ -57,6 +57,8 @@ body {
 /*structure*/
 .slider .inner {
 	min-height: 450px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 .content .inner {
 	min-height: 200px;

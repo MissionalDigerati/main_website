@@ -31,9 +31,12 @@
 			<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="vendor/javascript/bootstrap.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="vendor/javascript/bootstrap-dropdown.min.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.easing.1.3.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.camera.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="javascript/application.js"></script>
 			<link rel="stylesheet" href="vendor/stylesheets/bootstrap.min.css" type="text/css" charset="utf-8">
 			<link rel="stylesheet" href="vendor/stylesheets/bootstrap-responsive.min.css" type="text/css" charset="utf-8">
+			<link rel="stylesheet" href="vendor/stylesheets/jquery.camera.css" type="text/css" charset="utf-8">
 			<link rel="stylesheet" href="stylesheets/application.css" type="text/css" charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
@@ -67,6 +70,20 @@
 		<div class="slider">
 			<div class="inner">
 				<div class="container">
+					<div class="camera_wrap">
+					    <div data-src="images/slider/what_is_md.jpg">
+					    	<div class="camera_caption">Want to learn more about Missional Digerati?</div>
+					    </div>
+					    <div data-src="images/slider/jp_mobile.jpg">
+					    	<div class="camera_caption">Joshua Project Mobile App - Joshua Project's massive database is now accessible on a wide range of mobile and tablet devices.</div>
+					    </div>
+					    <div data-src="images/slider/sevennine.jpg">
+					    	<div class="camera_caption">79Online.org - Resourcing YOU to reach the rest!</div>
+					    </div>
+							<div data-src="images/slider/open_bible_stories.jpg">
+					    	<div class="camera_caption">Open Bible Stories - Crowd sourcing the translation of Jesus' message.</div>
+					    </div>
+					</div>
 				</div>
 			</div>
 		</div>

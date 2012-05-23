@@ -29,19 +29,18 @@
 	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
 	  <![endif]-->
 			<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/javascript/bootstrap.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/javascript/bootstrap-dropdown.min.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/js/bootstrap-dropdown.js"></script>
 			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.easing.1.3.js"></script>
 			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.camera.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="javascript/application.js"></script>
-			<link rel="stylesheet" href="vendor/stylesheets/bootstrap.min.css" type="text/css" charset="utf-8">
-			<link rel="stylesheet" href="vendor/stylesheets/bootstrap-responsive.min.css" type="text/css" charset="utf-8">
 			<link rel="stylesheet" href="vendor/stylesheets/jquery.camera.css" type="text/css" charset="utf-8">
-			<link rel="stylesheet" href="stylesheets/application.css" type="text/css" charset="utf-8">
+			<link rel="stylesheet" href="stylesheets/compiled/custom_bootstrap.css" type="text/css" charset="utf-8">
+			<link rel="stylesheet" href="stylesheets/compiled/application.css" type="text/css" charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-		<div class="navbar navbar-fixed-top">
+		<div class="navbar">
 	    <div class="navbar-inner">
 	      <div class="container">
 	        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -89,8 +88,19 @@
 		</div>
 	  <div class="content">
 			<div class="inner">
-				<div class="container">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<div class="container home">
+					<div class="row">
+					  <div class="span10 offset1">
+							<p>Missional Digerati is a mobile and web application development team that is:</p>
+							<ul>
+								<li><span class="highlighted">Nomadic in Nature</span> - We work with the greater Christian missional community.</li>
+								<li><span class="highlighted">Purposeful</span> - We only accept projects that engage and impact the least reached people groups of the world.</li>
+								<li><span class="highlighted">Open</span> - We share its completed projects with organizations within the Christian missional community.</li>
+								<li><span class="highlighted">Idea Generator</span> - We are always looking for new ways to exploit technology for kingdom work.</li> 
+							</ul>
+						</div>
+						<div class="span1"></div>
+					</div>
 				</div>
 			</div>
 		</div>

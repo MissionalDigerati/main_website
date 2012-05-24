@@ -29,8 +29,8 @@
 	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
 	  <![endif]-->
 			<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/js/bootstrap-dropdown.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/javascript/bootstrap.min.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/javascript/bootstrap-dropdown.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.easing.1.3.js"></script>
 			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.camera.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="javascript/application.js"></script>

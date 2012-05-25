@@ -1,21 +1,25 @@
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:28px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
 body{background-image:url('/images/site/furley_bg.png');background-color:#ffffff;}
 div.slider,div.content,div.inner{background-color:transparent;}
 div.slider div.inner div.container,div.content div.inner div.container{background-color:#ffffff;}
 div.slider div.inner div.container{padding-top:20px;}
 .navbar-inner{background-color:#242424;background-image:none;background-image:none;background-image:none;background-image:none;background-image:none;background-image:none;background-repeat:no-repeat;filter:none;}
-.navbar{margin-bottom:0px;}
-.navbar .container{height:80px;}
+.navbar{margin-bottom:0px;}.navbar .container{height:80px;}
 .navbar .brand{padding:16px 20px;}
-.navbar .nav{top:37px;}
-.navbar .nav>li>a{text-transform:uppercase;}
-.navbar .nav>li.donate .btn{margin-left:20px;}
-.navbar .nav>li>a:hover{color:#cbfe01;text-transform:uppercase;}
-.slider .inner{text-align:center;}
-.slider .inner .container{min-height:450px;padding-bottom:20px;}
+.navbar .nav{top:37px;}.navbar .nav li>a{text-transform:uppercase;}.navbar .nav li>a:hover{text-transform:uppercase;}
+.navbar .nav li.donate .btn{margin-left:20px;}
+.slider .inner{text-align:center;}.slider .inner .container{min-height:450px;padding-bottom:20px;}
 .content .inner .container{min-height:200px;}
 .extra .inner{color:white;background-color:#242424;border-top:1px solid #000000;min-height:200px;}
-div.mission{padding-top:10px;text-align:center;}
-div.mission p{font-size:16px;line-height:30px;}
+div.mission{padding-top:10px;text-align:center;}div.mission p{font-size:16px;line-height:30px;}
 .highlighted{color:#cbfe01;font-weight:bold;}
-div.container.home p,div.container.home{font-size:16px;}
-div.container.home li{padding:5px 0px;margin-left:20px;}
+div.container.home{font-size:16px;}div.container.home p{font-size:16px;}
+div.container.home ul li{padding:5px 0px;margin-left:20px;}
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:28px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+@media (max-width:600px){img#logo{width:130px;height:34px;width:130px;height:34px;} .navbar .brand{padding:5px 0px;} .navbar .container{height:auto;} .navbar .navbar-inner{min-height:0;} .navbar .nav{top:4px;} .navbar .collapse.in{border-top:1px solid #cbfe01;} .slider .inner .container{min-height:0px;padding-bottom:4px;} .camera_caption>div{display:none;} .camera_wrap .camera_pag .camera_pag_ul li{margin:5px;} div.container.home{font-size:12px;}div.container.home p{font-size:12px;} div.container.home ul li{padding:2px 0px;margin-left:4px;} div.mission{padding:3px;text-align:center;}div.mission p{font-size:12px;line-height:14px;} .extra{padding:4px;}.extra .inner{padding:3px 0px;min-height:0px;}}

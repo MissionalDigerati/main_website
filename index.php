@@ -46,7 +46,7 @@
 	        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 	          <span class="icon-bar"></span>
 	        </a>
-	        <a class="brand" href="#"><img src="images/site/logo.png" alt="Missional Digerati" title="Missional Digerati" /></a>
+	        <a class="brand" href="#"><img src="images/site/logo.png" alt="Missional Digerati" title="Missional Digerati" id="logo" /></a>
 	        <div class="nav-collapse">
 						<ul class="nav pull-right">
 							<li><a href="/" title="Home">Home</a></li>
@@ -60,7 +60,8 @@
 								</ul>
 							</li>
 							<li><a href="/" title="Contact Us">Contact Us</a></li>
-							<li class="donate"><div><a class="btn btn-primary" href="/donate" title="Donate">Donate</a></div></li>
+							<li class="visible-phone"><a href="/" title="Donate">Donate</a></li>
+							<li class="donate hidden-phone"><div><a class="btn btn-primary" href="/donate" title="Donate">Donate</a></div></li>
 						</ul>
 	        </div>
 	      </div>

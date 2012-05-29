@@ -61,14 +61,32 @@
 									<li><a href="/" title="Seven Nine Online">Seven Nine Online</a></li>
 								</ul>
 							</li>
+							<li><a href="/" title="Contact Us">Submit an Idea</a></li>
 							<li><a href="/" title="Contact Us">Contact Us</a></li>
-							<li class="visible-phone"><a href="/" title="Donate">Donate</a></li>
-							<li class="donate hidden-phone"><div><a class="btn btn-primary" href="/donate" title="Donate">Donate</a></div></li>
+							<!-- <li class="visible-phone"><a href="/" title="Donate">Donate</a></li>
+														<li class="donate hidden-phone"><div><a class="btn btn-primary" href="/donate" title="Donate">Donate</a></div></li> -->
 						</ul>
 	        </div>
 	      </div>
 	    </div>
 	  </div>
+		<div class="social_share hidden-phone hidden-tablet">
+			<div class="inner">
+				<div class="container">
+					<div class="add_this_icons">
+						<!-- AddThis Button BEGIN -->
+						<div class="addthis_toolbox addthis_default_style ">
+						  <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						  <a class="addthis_button_tweet"></a>
+						  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+						  <a class="addthis_counter addthis_pill_style"></a>
+						</div>
+						<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e8f96635c6b8081"></script>
+						<!-- AddThis Button END -->
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="slider">
 			<div class="inner">
 				<div class="container">

@@ -28,7 +28,7 @@
 <div class="nav-collapse">
 	<ul class="nav pull-right">
 		<li><a href="/" title="Home">Home</a></li>
-		<li><a href="/" title="About Us">About Us</a></li>
+		<li><a href="/about-us" title="About Us">About Us</a></li>
 		<li class="dropdown" id="#projects">
 			<a href="#projects" title="Projects" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
 			<ul class="dropdown-menu">

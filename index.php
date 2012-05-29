@@ -24,66 +24,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Missional Digerati:: Redeeming Technology for Kingdom Work</title>
-		<!--[if lt IE 9]>
-	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-	  <![endif]-->
-			<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/javascript/bootstrap.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/javascript/bootstrap-dropdown.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.easing.1.3.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.camera.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.colorbox.min.js"></script>
-			<script type="text/javascript" charset="utf-8" src="javascript/application.js"></script>
-			<link rel="stylesheet" href="vendor/stylesheets/jquery.camera.css" type="text/css" charset="utf-8">
-			<link rel="stylesheet" href="vendor/stylesheets/jquery.colorbox.css" type="text/css" charset="utf-8">
-			<link rel="stylesheet" href="stylesheets/compiled/custom_bootstrap.css" type="text/css" charset="utf-8">
-			<link rel="stylesheet" href="stylesheets/compiled/application.css" type="text/css" charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<?php 
+			$title = "Redeeming Technology for Kingdom Work";
+			require_once('partials/site_wide_css_js.inc.php'); 
+		?>
 	</head>
 	<body>
 		<div class="navbar">
 	    <div class="navbar-inner">
 	      <div class="container">
-	        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-	          <span class="icon-bar"></span>
-	        </a>
-	        <a class="brand" href="#"><img src="images/site/logo.png" alt="Missional Digerati" title="Missional Digerati" id="logo" /></a>
-	        <div class="nav-collapse">
-						<ul class="nav pull-right">
-							<li><a href="/" title="Home">Home</a></li>
-							<li><a href="/" title="About Us">About Us</a></li>
-							<li class="dropdown" id="#projects">
-								<a href="#projects" title="Projects" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="/" title="Joshua Project Mobile App">Joshua Project Mobile App</a></li>
-									<li><a href="/" title="Open Bible Stories">Open Bible Stories</a></li>
-									<li><a href="/" title="Seven Nine Online">Seven Nine Online</a></li>
-								</ul>
-							</li>
-							<li><a href="/" title="Contact Us">Submit an Idea</a></li>
-							<li><a href="/" title="Contact Us">Contact Us</a></li>
-							<!-- <li class="visible-phone"><a href="/" title="Donate">Donate</a></li>
-														<li class="donate hidden-phone"><div><a class="btn btn-primary" href="/donate" title="Donate">Donate</a></div></li> -->
-						</ul>
-	        </div>
+	        	<?php require_once('partials/main_nav.inc.php'); ?>
 	      </div>
 	    </div>
 	  </div>
 		<div class="social_share hidden-phone hidden-tablet">
 			<div class="inner">
 				<div class="container">
-					<div class="add_this_icons">
-						<!-- AddThis Button BEGIN -->
-						<div class="addthis_toolbox addthis_default_style ">
-						  <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-						  <a class="addthis_button_tweet"></a>
-						  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-						  <a class="addthis_counter addthis_pill_style"></a>
-						</div>
-						<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e8f96635c6b8081"></script>
-						<!-- AddThis Button END -->
-					</div>
+					<?php require_once('partials/add_this.inc.php'); ?>
 				</div>
 			</div>
 		</div>
@@ -116,7 +73,7 @@
 							<ul>
 								<li><span class="highlighted">Nomadic in Nature</span> - We work with the greater Christian missional community.</li>
 								<li><span class="highlighted">Purposeful</span> - We only accept projects that engage and impact the least reached people groups of the world.</li>
-								<li><span class="highlighted">Open</span> - We share its completed projects with organizations within the Christian missional community.</li>
+								<li><span class="highlighted">Open</span> - We share completed projects with organizations within the Christian missional community.</li>
 								<li><span class="highlighted">Idea Generator</span> - We are always looking for new ways to exploit technology for kingdom work.</li> 
 							</ul>
 						</div>
@@ -128,12 +85,7 @@
 		<div class="extra">
 			<div class="inner">
 				<div class="container">
-					<div class="row">
-					  <div class="span10 offset1 mission">
-							<p><span class="highlighted">Missional Digerati</span>, a community of thinkers, designers and developers committed to exploiting breakthroughs in technology in order to advance the pace of reaching every person on earth with the good news of Jesus Christ.</p>
-						</div>
-						<div class="span1"></div>
-					</div>
+					<?php require_once('partials/mission.inc.php'); ?>
 				</div>
 			</div>
 		</div>

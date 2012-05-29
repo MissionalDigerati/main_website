@@ -21,5 +21,5 @@
   */
 $(document).ready(function() {
 	$('.dropdown-toggle').dropdown();
-	$('.camera_wrap').camera({fx: 'simpleFade', portrait: true, height: '35%', piePosition: 'leftTop', loaderBgColor: '#242424', loaderColor: '#CBFE01'});
+	$('.camera_wrap').camera({fx: 'simpleFade', portrait: true, height: '35%', piePosition: 'leftTop', loaderBgColor: '#242424', loaderColor: '#CBFE01', imagePath: 'vendor/images/camera/'});
 });

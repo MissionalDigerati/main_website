@@ -33,8 +33,10 @@
 			<script type="text/javascript" charset="utf-8" src="vendor/bootstrap/javascript/bootstrap-dropdown.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.easing.1.3.js"></script>
 			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.camera.min.js"></script>
+			<script type="text/javascript" charset="utf-8" src="vendor/javascript/jquery.colorbox.min.js"></script>
 			<script type="text/javascript" charset="utf-8" src="javascript/application.js"></script>
 			<link rel="stylesheet" href="vendor/stylesheets/jquery.camera.css" type="text/css" charset="utf-8">
+			<link rel="stylesheet" href="vendor/stylesheets/jquery.colorbox.css" type="text/css" charset="utf-8">
 			<link rel="stylesheet" href="stylesheets/compiled/custom_bootstrap.css" type="text/css" charset="utf-8">
 			<link rel="stylesheet" href="stylesheets/compiled/application.css" type="text/css" charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,7 +73,7 @@
 			<div class="inner">
 				<div class="container">
 					<div class="camera_wrap">
-					    <div data-src="images/slider/what_is_md.jpg">
+					    <div data-src="images/slider/what_is_md.jpg" data-link="#about_md">
 					    	<div class="camera_caption">Want to learn more about Missional Digerati?</div>
 					    </div>
 					    <div data-src="images/slider/jp_mobile.jpg">

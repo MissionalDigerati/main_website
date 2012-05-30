@@ -67,8 +67,7 @@
 	  <div class="content">
 			<div class="inner">
 				<div class="container home">
-					<div class="row">
-					  <div class="span10 offset1">
+					  <div class="padded_content">
 							<p>Missional Digerati is a mobile and web application development team that is:</p>
 							<ul>
 								<li><span class="highlighted">Nomadic in Nature</span> - We work with the greater Christian missional community.</li>
@@ -77,7 +76,6 @@
 								<li><span class="highlighted">Idea Generator</span> - We are always looking for new ways to exploit technology for kingdom work.</li> 
 							</ul>
 						</div>
-						<div class="span1"></div>
 					</div>
 				</div>
 			</div>

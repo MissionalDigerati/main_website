@@ -24,7 +24,7 @@
 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 <span class="icon-bar"></span>
 </a>
-<a class="brand" href="#"><img src="images/site/logo.png" alt="Missional Digerati" title="Missional Digerati" id="logo" /></a>
+<a class="brand" href="#"><img src="/images/site/logo.png" alt="Missional Digerati" title="Missional Digerati" id="logo" /></a>
 <div class="nav-collapse">
 	<ul class="nav pull-right">
 		<li><a href="/" title="Home">Home</a></li>
@@ -32,7 +32,7 @@
 		<li class="dropdown" id="#projects">
 			<a href="#projects" title="Projects" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
 			<ul class="dropdown-menu">
-				<li><a href="/" title="Joshua Project Mobile App">Joshua Project Mobile App</a></li>
+				<li><a href="/projects/jp-mobile" title="Joshua Project Mobile App">Joshua Project Mobile App</a></li>
 				<li><a href="/" title="Open Bible Stories">Open Bible Stories</a></li>
 				<li><a href="/" title="Seven Nine Online">Seven Nine Online</a></li>
 			</ul>

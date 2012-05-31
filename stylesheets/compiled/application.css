@@ -3,6 +3,7 @@
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
 .input-block-level{display:block;width:100%;min-height:28px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
 body{background-image:url('/images/site/furley_bg.png');background-color:#ffffff;}
+p{margin-bottom:12px;}p.emphasis_quote{font-size:small;font-weight:bold;text-align:center;color:#242424;}
 div.slider,div.content,div.inner{background-color:transparent;}
 div.inner div.container{background-color:#ffffff;}
 div.extra div.inner div.container{background-color:#242424;}
@@ -34,9 +35,15 @@ div.container.home ul li{padding:5px 0px;margin-left:20px;}
 .skills_box:before,.skills_box:after{display:table;content:"";}
 .skills_box:after{clear:both;}
 .skills_box img{float:left;width:46%;padding:0 2%;}
+.project_details{*zoom:1;*zoom:1;}.project_details:before,.project_details:after{display:table;content:"";}
+.project_details:after{clear:both;}
+.project_details:before,.project_details:after{display:table;content:"";}
+.project_details:after{clear:both;}
+.project_details #project_video{float:left;width:49%;}
+.project_details #project_tech_specs{clear:right;float:left;margin-left:2%;width:49%;}
 h1{color:#242424;}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
 .input-block-level{display:block;width:100%;min-height:28px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
-@media (max-width:600px){img#logo{width:130px;height:34px;width:130px;height:34px;} .navbar .brand{padding:5px 0px;} .navbar .container{height:auto;} .navbar .navbar-inner{min-height:0;} .navbar .nav{top:4px;} .navbar .collapse.in{border-top:1px solid #cbfe01;} .slider .inner .container{min-height:0px;padding-bottom:4px;} .camera_caption>div{display:none;} .camera_wrap .camera_pag .camera_pag_ul li{margin:5px;} div.container.home{font-size:12px;}div.container.home p{font-size:12px;} div.container.home ul li{padding:2px 0px;margin-left:4px;} div.mission{padding:3px;text-align:center;}div.mission p{font-size:12px;line-height:14px;} .extra{padding:4px;}.extra .inner{padding:3px 0px;min-height:0px;} .staff .staff_pic{width:100%;text-align:center;float:none;} .staff .staff_bio{width:100%;float:none;}}
+@media (max-width:600px){img#logo{width:130px;height:34px;width:130px;height:34px;} .navbar .brand{padding:5px 0px;} .navbar .container{height:auto;} .navbar .navbar-inner{min-height:0;} .navbar .nav{top:4px;} .navbar .collapse.in{border-top:1px solid #cbfe01;} .slider .inner .container{min-height:0px;padding-bottom:4px;} .camera_caption>div{display:none;} .camera_wrap .camera_pag .camera_pag_ul li{margin:5px;} div.container.home{font-size:12px;}div.container.home p{font-size:12px;} div.container.home ul li{padding:2px 0px;margin-left:4px;} div.mission{padding:3px;text-align:center;}div.mission p{font-size:12px;line-height:14px;} .extra{padding:4px;}.extra .inner{padding:3px 0px;min-height:0px;} .staff .staff_pic{width:100%;text-align:center;float:none;} .staff .staff_bio{width:100%;float:none;} .project_details #project_video{float:none;width:100%;} .project_details #project_tech_specs{clear:none;float:none;width:100%;margin-top:5px;}}

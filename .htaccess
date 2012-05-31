@@ -1,4 +1,5 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 	RewriteRule about-us /about_us.php [L]
+	RewriteRule projects/jp-mobile projects/jp_mobile.php [L]
 </IfModule>

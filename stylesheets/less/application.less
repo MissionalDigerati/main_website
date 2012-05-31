@@ -27,6 +27,16 @@ body {
 	background-image: url('/images/site/furley_bg.png');
 	background-color: @white;
 }
+p {
+	margin-bottom: 12px;
+	
+	&.emphasis_quote {
+		font-size: small;
+		font-weight: bold;
+		text-align: center;
+		color: @mdPrimaryColor;
+	}
+}
 div.slider, div.content, div.inner {
 	background-color: transparent;
 }
@@ -194,6 +204,23 @@ div.container.home{
 		width: 46%;
 		padding: 0 2%;
 	}
+}
+
+.project_details {
+	.clearfix();
+	
+	#project_video {
+		float: left;
+		width: 49%;
+	}
+	
+	#project_tech_specs {
+		clear: right;
+		float: left;
+		margin-left: 2%;
+		width: 49%;
+	}
+	
 }
 h1 {
 	color: @mdPrimaryColor;

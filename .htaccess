@@ -2,4 +2,5 @@
 	RewriteEngine on
 	RewriteRule about-us /about_us.php [L]
 	RewriteRule projects/jp-mobile projects/jp_mobile.php [L]
+	RewriteRule projects/79-online projects/79_online.php [L]
 </IfModule>

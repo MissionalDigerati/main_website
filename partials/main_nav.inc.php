@@ -34,7 +34,7 @@
 			<ul class="dropdown-menu">
 				<li><a href="/projects/jp-mobile" title="Joshua Project Mobile App">Joshua Project Mobile App</a></li>
 				<li><a href="/" title="Open Bible Stories">Open Bible Stories</a></li>
-				<li><a href="/" title="Seven Nine Online">Seven Nine Online</a></li>
+				<li><a href="/projects/79-online" title="Seven Nine Online">Seven Nine Online</a></li>
 			</ul>
 		</li>
 		<li><a href="/" title="Contact Us">Submit an Idea</a></li>

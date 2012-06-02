@@ -36,6 +36,10 @@ p {
 		text-align: center;
 		color: @mdPrimaryColor;
 	}
+	
+	&.italic {
+		font-style: italic;
+	}
 }
 div.slider, div.content, div.inner {
 	background-color: transparent;
@@ -206,24 +210,12 @@ div.container.home{
 	}
 }
 
-.project_details {
-	.clearfix();
-	
-	#project_video {
-		float: left;
-		width: 49%;
-	}
-	
-	#project_tech_specs {
-		clear: right;
-		float: left;
-		margin-left: 2%;
-		width: 49%;
-	}
-	
-}
 h1 {
 	color: @mdPrimaryColor;
 }
+.well {
+	background-color: @mdAltColor1;
+}
 
+@import "stylesheets/less/projects.less";
 @import "stylesheets/less/mobile.application.less";

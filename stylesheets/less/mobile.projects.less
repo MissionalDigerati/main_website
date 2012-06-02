@@ -23,106 +23,6 @@
 @import "/vendor/bootstrap/less/mixins.less";
 @import "stylesheets/less/additional_variables.less";
 @media (max-width: 600px) {
-	img#logo {
-		.size(34px, 130px);
-	}
-	
-	.navbar {
-		
-		.brand {
-			padding: 5px 0px;
-		}
-		
-		.container {
-			height: auto;
-		}
-		
-		.navbar-inner {
-			min-height: 0;
-		}
-		
-		.nav {
-			top: 4px;
-		}
-		
-		.collapse.in {
-			border-top: 1px solid @mdSecondaryColor;
-		}
-
-	}
-	
-	.slider {
-
-		.inner {
-
-			.container {
-				min-height: 0px;
-				padding-bottom: 4px;
-			}
-		}
-
-	}
-	
-	.camera_caption > div {
-		display: none;
-	}
-	
-	.camera_wrap .camera_pag .camera_pag_ul li {
-		margin: 5px;
-	}
-	
-	div.container.home{
-		font-size: 12px;
-
-		p {
-			font-size: 12px;
-		}
-
-		ul{
-
-			li {
-				padding: 2px 0px;
-				margin-left: 4px;
-			}
-
-		}
-
-	}
-	
-	div.mission {
-		padding: 3px;
-		text-align: center;
-
-		p {
-			font-size: 12px;
-			line-height: 14px;
-		} 
-
-	}
-	
-	.extra {
-		padding: 4px;
-		
-		.inner {
-			padding: 3px 0px;
-			min-height: 0px;
-		}
-	}
-	
-	.staff {
-
-		.staff_pic {
-			width: 100%;
-			text-align: center;
-			float: none;
-		}
-
-		.staff_bio {
-			width: 100%;
-			float: none;
-		}
-
-	}
 	
 	.project_details {
 
@@ -140,6 +40,32 @@
 
 	}
 	
-}
+	.feature_box {
+		.clearfix();
+		margin-bottom: 25px;
 
-@import "stylesheets/less/mobile.projects.less";
+		.featured {
+			float: none;
+			width: 100%;
+
+			img {
+			}
+		}
+
+		.featured_last {
+			clear: none;
+			float: none;
+			margin-left: 0px;
+			width: 100%;
+
+			img {
+				float: none;
+				width: 100%;
+				margin-right: 0px;
+			}
+
+		}
+
+	}
+	
+}

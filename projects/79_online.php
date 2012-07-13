@@ -101,7 +101,7 @@
 									<div class="featured">
 										<img src="/images/site/projects/seven_nine/free.jpg" alt="Free Bird" class="hidden-phone">
 										<h3>Absolutely Free</h3>
-										<p>All the digital missions resources are free!</p>
+										<p>All the digital resources are free!</p>
 									</div>
 									<div class="featured_last"></div>
 							</div>

@@ -30,18 +30,19 @@
 </a>
 <div class="nav-collapse">
 	<ul class="nav pull-right">
-		<li><a href="/" title="Home">Home</a></li>
-		<li><a href="/about-us" title="About Us">About Us</a></li>
+		<li><a href="/">Home</a></li>
+		<li><a href="/about-us">About Us</a></li>
 		<li class="dropdown" id="#projects">
-			<a href="#projects" title="Projects" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
+			<a href="#projects" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
 			<ul class="dropdown-menu">
-				<li><a href="/projects/jp-mobile" title="Joshua Project Mobile App">Joshua Project Mobile App</a></li>
-				<li><a href="/projects/open-bible-stories" title="Open Bible Stories">Open Bible Stories</a></li>
-				<li><a href="/projects/79-online" title="Seven Nine Online">Seven Nine Online</a></li>
+				<li><a href="/projects/jp-mobile">Joshua Project Mobile App</a></li>
+				<li><a href="/projects/open-bible-stories">Open Bible Stories</a></li>
+				<li><a href="/projects/79-online">Seven Nine Online</a></li>
 			</ul>
 		</li>
-		<li><a href="/" title="Contact Us">Submit an Idea</a></li>
-		<li><a href="/" title="Contact Us">Contact Us</a></li>
+		<li><a href="/">Submit an Idea</a></li>
+		<li><a href="https://github.com/organizations/MissionalDigerati">Code Repo</a></li>
+		<li><a href="/">Contact Us</a></li>
 		<!-- <li class="visible-phone"><a href="/" title="Donate">Donate</a></li>
 				<li class="donate hidden-phone"><div><a class="btn btn-primary" href="/donate" title="Donate">Donate</a></div></li> -->
 	</ul>

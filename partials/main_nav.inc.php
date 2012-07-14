@@ -40,7 +40,7 @@
 				<li><a href="/projects/79-online">Seven Nine Online</a></li>
 			</ul>
 		</li>
-		<li><a href="/">Submit an Idea</a></li>
+		<li><a href="/submit-an-idea">Submit an Idea</a></li>
 		<li><a href="https://github.com/organizations/MissionalDigerati" target="_blank">Code Repo</a></li>
 		<li><a href="/">Contact Us</a></li>
 		<!-- <li class="visible-phone"><a href="/" title="Donate">Donate</a></li>

@@ -75,7 +75,7 @@
 										<p><strong>Status:</strong> Completed & Translated in 3 Languages<p>
 										<p><strong>Type:</strong> Website<p>
 										<p></p>
-										<a href="http://79online.org/" target="_blank" class="btn btn-primary btn-large">Visit Now</a>
+										<a href="http://79online.org/" target="_blank" class="btn btn-primary btn-large">Visit Now <i class="icon-white icon-share-alt"></i></a>
 									</div>
 								</div>
 							</div>

@@ -75,7 +75,7 @@
 										<p><strong>Status:</strong> Completed<p>
 										<p><strong>Type:</strong> Web Based Mobile Application<p>
 										<p></p>
-										<a href="http://m.joshuaproject.net" target="_blank" class="btn btn-primary btn-large">Download Now</a>
+										<a href="http://m.joshuaproject.net" target="_blank" class="btn btn-primary btn-large">Visit Now <i class="icon-white icon-share-alt"></i></a>
 									</div>
 								</div>
 							</div>

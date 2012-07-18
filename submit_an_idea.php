@@ -67,9 +67,9 @@ if(isset($_POST) && !empty($_POST)) {
 		$to = $emailSettings['submit_idea']['to'];
 		$mail->AddAddress($to, '');
 		$emailMessage = "Dear Project Director,\r\nA new idea was submitted to the Missional Digerati.  Here are the details:\r\n";
-		$emailMessage .= "From: " . $_POST['name'] . " - " . $_POST['email'] . "\r\n";
-		$emailMessage .= "Ministry: " . $_POST['ministry'] . "\r\n";
-		$emailMessage .= "Idea: " . $_POST['idea'] . "\r\n";
+		$emailMessage .= "From: " . strip_tags($_POST['name']) . " - " . strip_tags($_POST['email']) . "\r\n";
+		$emailMessage .= "Ministry: " . strip_tags($_POST['ministry']) . "\r\n";
+		$emailMessage .= "Idea: " . strip_tags($_POST['idea']) . "\r\n";
 		$emailMessage .= "Hope that helps.  Take care, and God Bless.\r\n Your Machine";
 		$mail->Body = $emailMessage;
 		$mail->IsHTML(false);
@@ -82,10 +82,10 @@ if(isset($_POST) && !empty($_POST)) {
 		 *
 		 * @author Johnathan Pulos
 		 */
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-		$ministry = $_POST['ministry'];
-		$idea = $_POST['idea'];
+		$name = strip_tags($_POST['name']);
+		$email = strip_tags($_POST['email']);
+		$ministry = strip_tags($_POST['ministry']);
+		$idea = strip_tags($_POST['idea']);
 		$message = "I am sorry, but there was a problem with your submission.";
 		$alertType = "alert-error";
 	}

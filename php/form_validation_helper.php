@@ -89,5 +89,6 @@ class FormValidationHelper {
 			return false;
 		}
 	}
+	
 }
 ?>

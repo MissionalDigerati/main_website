@@ -31,5 +31,16 @@
  * @var array
  * @author Johnathan Pulos
  */
-$emailSettings = array('submit_idea' => array('to'=> 'email@yahoo.com', 'from' => 'email@yahoo.com', 'from_name' => 'Missional Digerati Website'));
+$emailSettings = array(
+												'submit_idea' => 
+													array(	'to'=> 'email@yahoo.com', 
+																	'from' => 'email@yahoo.com', 
+																	'from_name' => 'Missional Digerati Website'
+															),
+												'contact_us' => 
+													array(	'to'=> 'email@yahoo.com', 
+																	'from' => 'email@yahoo.com', 
+																	'from_name' => 'Missional Digerati Website'
+															)
+												);
 ?>

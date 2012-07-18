@@ -22,4 +22,31 @@
 $(document).ready(function() {
 	$('.dropdown-toggle').dropdown();
 	$('.camera_wrap').camera({fx: 'simpleFade', portrait: true, height: '35%', loader: 'bar', loaderBgColor: '#242424', loaderColor: '#CBFE01', imagePath: 'vendor/images/camera/'});
+	if($('div#tweet_box').length > 0) {
+		getLatestTweet();
+	}
 });
+/**
+ * Get the latest tweet from MD 
+ */
+function getLatestTweet() {
+	var tweet_box_html = '<hr class="clearfix" />';
+	$.getJSON("https://api.twitter.com/1/statuses/user_timeline.json?screen_name=M_Digerati&count=1&callback=?", 
+	  function (data) {
+			if(data.length >= 1) {
+				tweet_box_html = tweet_box_html+'<blockquote class="pull-right">'+replaceURLWithHTMLLinks(data[0].text)+' <small>@M_Digerati via Twitter</small></blockquote>';
+				$('div#tweet_box').html(tweet_box_html);
+			}
+	});
+};
+/**
+ * Look through text and replace links with actual html linking 
+ * @var String text the text to search
+ * @return String
+ * 
+ * @link http://www.focal55.com/blog/jquery-tutorial-change-urls-text-links-automatically
+ */
+function replaceURLWithHTMLLinks(text) {
+	var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+	return text.replace(exp,"<a href='$1' target='_blank'>$1</a>"); 
+};

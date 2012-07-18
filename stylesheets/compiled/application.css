@@ -51,6 +51,8 @@ h1,h2,h3,h4{color:#232323;}
 h4{font-size:16px;font-style:italic;margin-bottom:5px;}
 .well{background-color:#ebebeb;}
 .margin-top-bottom{margin:10px 0px;}
+.margin-bottom{margin:0px 0px 10px;}
+.text-right{text-align:right;}
 .clearfix{clear:both;display:block;}
 form#submit_idea_form div.phone_number{display:none;}
 form#contact_us_form div.city{display:none;}

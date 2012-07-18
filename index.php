@@ -75,6 +75,11 @@
 								<li><span class="highlighted">Open</span> - We share completed projects with organizations within the Christian missional community.</li>
 								<li><span class="highlighted">Idea Generator</span> - We are always looking for new ways to exploit technology for kingdom work.</li> 
 							</ul>
+							<div id="tweet_box"></div>
+							<div id="tweet_button_box" class="clearfix margin-bottom text-right">
+								<a href="https://twitter.com/M_Digerati" class="twitter-follow-button" data-show-count="false">Follow @M_Digerati</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+							</div>
 						</div>
 					</div>
 				</div>

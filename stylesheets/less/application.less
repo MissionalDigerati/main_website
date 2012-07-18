@@ -82,6 +82,20 @@ div.social_share div.add_this_icons {
   background-repeat: no-repeat;
   filter: none;
 }
+
+ul.dropdown-menu {
+	
+	li > a {
+		
+		&:hover {
+			background-color: @mdSecondaryColor;
+			color: @mdPrimaryColor;
+		}
+		
+	}
+	
+}
+
 .navbar {
 	margin-bottom: 0px;
 	
@@ -102,6 +116,16 @@ div.social_share div.add_this_icons {
 			}
 			
 		}
+		
+		.active > a {
+			background-color: @mdPrimaryColor;
+			
+			&:hover {
+				background-color: @mdPrimaryColor;
+			}
+			
+		}
+		
 		li.donate .btn {
 			margin-left: 20px;
 		}

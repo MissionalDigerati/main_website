@@ -20,6 +20,11 @@
  * @copyright Copyright 2012 Missional Digerati
  * 
  */
+if(isset($_SERVER["REQUEST_URI"])) {
+	$requestedUrl = substr($_SERVER["REQUEST_URI"], 1);
+}else {
+	$requestedUrl = '';
+}
 ?>
 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 <span class="icon-bar"></span>
@@ -30,20 +35,30 @@
 </a>
 <div class="nav-collapse">
 	<ul class="nav pull-right">
-		<li><a href="/">Home</a></li>
-		<li><a href="/about-us">About Us</a></li>
-		<li class="dropdown" id="#projects">
+		<li<?php if($requestedUrl ==''){ echo ' class="active"'; } ?>><a href="/">Home</a></li>
+		<li<?php if($requestedUrl =='about-us'){ echo ' class="active"'; } ?>><a href="/about-us">About Us</a></li>
+		<li class="dropdown" id="#projects" class="active">
 			<a href="#projects" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
 			<ul class="dropdown-menu">
-				<li><a href="/projects/jp-mobile">Joshua Project Mobile App</a></li>
-				<li><a href="/projects/open-bible-stories">Open Bible Stories</a></li>
-				<li><a href="/projects/79-online">Seven Nine Online</a></li>
+				<li<?php if(strpos($requestedUrl, 'jp-mobile') !== false){ echo ' class="active"'; } ?>><a href="/projects/jp-mobile">Joshua Project Mobile App</a></li>
+				<li<?php if(strpos($requestedUrl, 'open-bible-stories') !== false){ echo ' class="active"'; } ?>><a href="/projects/open-bible-stories">Open Bible Stories</a></li>
+				<li<?php if(strpos($requestedUrl, '79-online') !== false){ echo ' class="active"'; } ?>><a href="/projects/79-online">Seven Nine Online</a></li>
 			</ul>
 		</li>
-		<li><a href="/submit-an-idea">Submit an Idea</a></li>
+		<li<?php if($requestedUrl =='submit-an-idea'){ echo ' class="active"'; } ?>><a href="/submit-an-idea">Submit an Idea</a></li>
 		<li><a href="https://github.com/organizations/MissionalDigerati" target="_blank">Code Repo</a></li>
-		<li><a href="/contact-us">Contact Us</a></li>
+		<li<?php if($requestedUrl =='contact-us'){ echo ' class="active"'; } ?>><a href="/contact-us">Contact Us</a></li>
 		<!-- <li class="visible-phone"><a href="/" title="Donate">Donate</a></li>
 				<li class="donate hidden-phone"><div><a class="btn btn-primary" href="/donate" title="Donate">Donate</a></div></li> -->
 	</ul>
 </div>
+<?php
+/**
+ * Trigger the dropdown if we are on a projects page
+ * $('a.dropdown-toggle').trigger('click');
+ * @author Johnathan Pulos
+ */
+if(strpos($requestedUrl, 'projects') !== false){ 
+	echo '<script type="text/javascript" charset="utf-8">$(document).ready(function() {$("a.dropdown-toggle").trigger("click");})</script>';
+}
+?>

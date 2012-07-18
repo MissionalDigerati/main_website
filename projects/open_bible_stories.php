@@ -60,6 +60,9 @@
 			<div class="inner">
 				<div class="container home">
 					  <div class="padded_content">
+							<div class="page-header">
+							  <h2>Projects: Open Bible Stories</h2>
+							</div>
 							<div class="project_details">
 								<div id="project_video">
 									<div class="video_container hidden-phone">
@@ -81,22 +84,22 @@
 							</div>
 						<p><a href="http://www.openbiblestories.com/" target="_blank">Open Bible Stories</a> is an open project to create A Visual Mini-Bible in Every Language.  In order to translate these visual stories, we are building a video translation API that will be powered by online crowdsourcing.  Crowdsourcing provides a way for any person around the world to help in the translation of these stories.  These individuals will simply upload their audio files to a website, and the API will process and piece together a translated version of the video.  The ultimate goal is to create a tool that any mission agency can use to aid in the translation of their video resources.  To learn more about Open Bible Stories,  please visit the <a href="http://www.dsmedia.org/blog/how-open-bible-stories-works" target="_blank">Distant Shores Media Blog</a>.</p>
 							<div class="page-header">
-							  <h2>Key Features</h2>
+							  <h3>Key Features</h3>
 							</div>
 							<div class="feature_box">
 									<div class="featured">
 										<img src="/images/site/projects/obs/earth.jpg" alt="Earth" class="hidden-phone">
-										<h3>Crowdsourcing Video Translation</h3>
+										<h4>Crowdsourcing Video Translation</h4>
 										<p>Employing up to <a href="http://www.internetworldstats.com/stats.htm" target="_blank">2.26 billion internet users worldwide</a> in the translation of visual Bible stories.</p>
 									</div>
 									<div class="featured_last">
 										<img src="/images/site/projects/obs/street_sign.jpg" alt="Multilingual Street Sign" class="hidden-phone">
-										<h3>Visual Bible Stories for Every Language</h3>
+										<h4>Visual Bible Stories for Every Language</h4>
 										<p>Over <a href="http://www.youtube.com/t/press_statistics/" target="_blank">3 billion hours</a> of video are consumed per month on Youtube.  These video services have made video the dominate technology for distributing the Bible in every language around the globe.</p>
 									</div>
 									<div class="featured">
 										<img src="/images/site/projects/obs/mobile_phone.jpg" alt="Mobile Phone" class="hidden-phone">
-										<h3>Powered by an API</h3>
+										<h4>Powered by an API</h4>
 										<p>Application programming interfaces, or APIs, provide a vehicle for sharing the video translation process across multiple applications.  With one video translation service running,  you can power your Android App,  iPhone App, and website in one central place.</p>
 									</div>
 									<div class="featured_last"></div>

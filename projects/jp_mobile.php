@@ -60,6 +60,9 @@
 			<div class="inner">
 				<div class="container home">
 					  <div class="padded_content">
+							<div class="page-header">
+							  <h2>Projects: Joshua Project Mobile App</h2>
+							</div>
 							<div class="project_details">
 								<div id="project_video">
 									<div class="video_container hidden-phone">
@@ -82,22 +85,22 @@
 							<p><a href="http://www.joshuaproject.net/" target="_blank">Joshua Project</a> is a research initiative seeking to highlight the ethnic people groups of the world with the fewest followers of Christ. Joshua Project gathers, integrates and shares people group information to encourage pioneer church-planting movements among every ethnic group and to facilitate effective coordination of mission agency efforts.</p>
 							<p>The Joshua Project Mobile App gives you the ability to access their information on thousands of people groups, see data on hundreds of countries, flick through amazing photos, learn about famous missionaries or even share the gospel.</p>
 							<div class="page-header">
-							  <h2>Key Features</h2>
+							  <h3>Key Features</h3>
 							</div>
 							<div class="feature_box">
 									<div class="featured">
 										<img src="/images/site/projects/jp_mobile/iphone_w_app.jpg" alt="iPhone 4 with App" class="hidden-phone">
-										<h3>Portable Resource Library</h3>
+										<h4>Portable Resource Library</h4>
 										<p>Access Joshua Project's immense library of ethnic people group data, and country data from your phone or tablet device.</p>
 									</div>
 									<div class="featured_last">
 										<img src="/images/site/projects/jp_mobile/g1_with_app.jpg" alt="G1 With App" class="hidden-phone">
-										<h3>Multiple Platforms</h3>
+										<h4>Multiple Platforms</h4>
 										<p>Harnessing the power of <a href="http://jquerymobile.com/" target="_blank">JQuery Mobile</a>,  you can access the data on many of the common mobile phone and tablet devices.  This includes iOS, Android, Blackberry, and Windows based mobile phones and tablet devices.  To see a complete list of devices,  please visit the <a href="http://jquerymobile.com/gbs/" target="_blank">JQuery Mobile Documentation</a></p>
 									</div>
 									<div class="featured">
 										<img src="/images/site/projects/jp_mobile/blackberry_w_app.jpg" alt="Blackberry with App" class="hidden-phone">
-										<h3>Missions 101 Tools</h3>
+										<h4>Missions 101 Tools</h4>
 										<p>Access missionary biographies, missions facts and statistics, various articles on missions, and even a Gospel presentation from the palm of your hand.</p>
 									</div>
 									<div class="featured_last"></div>

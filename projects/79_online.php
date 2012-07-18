@@ -60,6 +60,9 @@
 			<div class="inner">
 				<div class="container home">
 					  <div class="padded_content">
+							<div class="page-header">
+							  <h2>Projects: Seven Nine Online</h2>
+							</div>
 							<div class="project_details">
 								<div id="project_video">
 									<div class="video_container hidden-phone">
@@ -85,22 +88,22 @@
 							</blockquote>
 							<p>The <a href="http://79online.org/" target="_blank">79 Online website</a> is a digital library of the best Christian missions resources to help point believers towards entire people groups who do not have an opportunity to hear the Word of God.  Providing video, audio, and text resources,  79 Online has developed a one stop shop for free digital missions focused tools.  It is a virtual stockpile of missions resources at your fingertips.</p>
 							<div class="page-header">
-							  <h2>Key Features</h2>
+							  <h3>Key Features</h3>
 							</div>
 							<div class="feature_box">
 									<div class="featured">
 										<img src="/images/site/projects/seven_nine/multiple_languages.jpg" alt="Computer with Website on It" class="hidden-phone">
-										<h3>Multiples Languages</h3>
+										<h4>Multiples Languages</h4>
 										<p>Currently translated in English, Portuguese, and Russian with plans to translate into other language.</p>
 									</div>
 									<div class="featured_last">
 										<img src="/images/site/projects/seven_nine/resources.jpg" alt="Macbook Air with website on it" class="hidden-phone">
-										<h3>Multiples Resource Types</h3>
+										<h4>Multiples Resource Types</h4>
 										<p>Designed for every type of learner,  resources are available as video, audio, and text documents.</p>
 									</div>
 									<div class="featured">
 										<img src="/images/site/projects/seven_nine/free.jpg" alt="Free Bird" class="hidden-phone">
-										<h3>Absolutely Free</h3>
+										<h4>Absolutely Free</h4>
 										<p>All the digital resources are free!</p>
 									</div>
 									<div class="featured_last"></div>

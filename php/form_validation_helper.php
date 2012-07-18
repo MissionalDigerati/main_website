@@ -43,6 +43,7 @@ class FormValidationHelper {
 	 */
 	public function __construct($postVars) {
 		$this->postVars = $postVars;
+		$this->cleanPostVars();
 	}
 	
 	/**
@@ -90,5 +91,17 @@ class FormValidationHelper {
 		}
 	}
 	
+	/**
+	 * Strips tags from all variables in the post
+	 *
+	 * @return void
+	 * @access private
+	 * @author Johnathan Pulos
+	 */
+	private function cleanPostVars() {
+		foreach($this->postVars as $key => $var) {
+			$this->postVars[$key] = strip_tags($var);
+		}
+	}
 }
 ?>

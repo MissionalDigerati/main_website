@@ -21,7 +21,7 @@ ul.dropdown-menu li>a:hover{background-color:#cbfe01;color:#232323;}
 .slider .inner{text-align:center;}.slider .inner .container{min-height:450px;padding-bottom:20px;}
 .content .inner .container{min-height:200px;}
 .padded_content{padding:0 2%;width:96%;}
-.extra .inner{color:white;background-color:#232323;border-top:1px solid #000000;min-height:200px;}
+.extra .inner{color:white;background-color:#232323;border-top:1px solid #000000;min-height:320px;}
 div.mission{padding-top:10px;text-align:center;}div.mission p{font-size:16px;line-height:30px;}
 .highlighted{color:#cbfe01;font-weight:bold;}
 div.container.home{font-size:15px;}div.container.home p{font-size:15px;}

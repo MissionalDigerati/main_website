@@ -34,6 +34,11 @@ $idea = '';
 $message = "";
 $alertType = "";
 if(isset($_POST) && !empty($_POST)) {
+	/**
+	 * Validate the passed data
+	 *
+	 * @author Johnathan Pulos
+	 */
 	$validate = new FormValidationHelper($_POST);
 	if(!$validate->isPresent('name')) {
 		$nameError = true;
@@ -48,6 +53,11 @@ if(isset($_POST) && !empty($_POST)) {
 		$spamError = true;
 	}
 	if(($nameError === false) && ($emailError === false) && ($spamError === false)) {
+		/**
+		 * Validation passed.  Lets email the client.
+		 *
+		 * @author Johnathan Pulos
+		 */
 		$mail = new PHPMailer(); // create a object to that class.
 		$mail->IsMail();
 		$mail->Timeout  = 360;
@@ -67,6 +77,11 @@ if(isset($_POST) && !empty($_POST)) {
 		$message = "Thank you!  Your idea has been submitted.";
 		$alertType = "alert-success";
 	}else {
+		/**
+		 * There was an error.  Prepare to feed data back tot the form
+		 *
+		 * @author Johnathan Pulos
+		 */
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$ministry = $_POST['ministry'];

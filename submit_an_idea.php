@@ -22,8 +22,8 @@
  */
 require_once('config/settings.php');
 require_once('php/form_validation_helper.php');
-require_once('php/phpmailer/class.phpmailer.php');
-require_once('php/phpmailer/class.smtp.php');
+require_once('vendor/phpmailer/class.phpmailer.php');
+require_once('vendor/phpmailer/class.smtp.php');
 $nameError = false;
 $emailError = false;
 $spamError = false;

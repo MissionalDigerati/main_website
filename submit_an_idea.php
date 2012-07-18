@@ -20,14 +20,20 @@
  * @copyright Copyright 2012 Missional Digerati
  * 
  */
+require_once('config/settings.php');
+require_once('php/form_validation_helper.php');
+require_once('php/phpmailer/class.phpmailer.php');
+require_once('php/phpmailer/class.smtp.php');
 $nameError = false;
 $emailError = false;
+$spamError = false;
 $name = '';
 $email = '';
 $ministry = '';
 $idea = '';
+$message = "";
+$alertType = "";
 if(isset($_POST) && !empty($_POST)) {
-	require_once('php/form_validation_helper.php');
 	$validate = new FormValidationHelper($_POST);
 	if(!$validate->isPresent('name')) {
 		$nameError = true;
@@ -38,13 +44,36 @@ if(isset($_POST) && !empty($_POST)) {
 	if(!$validate->isEmail('email')) {
 		$emailError = true;
 	}
-	if(($nameError === false) && ($emailError === false)) {
-		echo "Ready for emailing.";
+	if($validate->isSpam('phone_number')) {
+		$spamError = true;
 	}
-	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$ministry = $_POST['ministry'];
-	$idea = $_POST['idea'];
+	if(($nameError === false) && ($emailError === false) && ($spamError === false)) {
+		$mail = new PHPMailer(); // create a object to that class.
+		$mail->IsMail();
+		$mail->Timeout  = 360;
+		$mail->Subject =  'Missional Digerati:  Submitting an Idea';
+		$mail->From = $emailSettings['submit_idea']['from'];
+		$mail->FromName = $emailSettings['submit_idea']['from_name'];
+		$to = $emailSettings['submit_idea']['to'];
+		$mail->AddAddress($to, '');
+		$emailMessage = "Dear Project Director,\r\nA new idea was submitted to the Missional Digerati.  Here are the details:\r\n";
+		$emailMessage .= "From: " . $_POST['name'] . " - " . $_POST['email'] . "\r\n";
+		$emailMessage .= "Ministry: " . $_POST['ministry'] . "\r\n";
+		$emailMessage .= "Idea: " . $_POST['idea'] . "\r\n";
+		$emailMessage .= "Hope that helps.  Take care, and God Bless.\r\n Your Machine";
+		$mail->Body = $emailMessage;
+		$mail->IsHTML(false);
+		$mail->Send();
+		$message = "Thank you!  Your idea has been submitted.";
+		$alertType = "alert-success";
+	}else {
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$ministry = $_POST['ministry'];
+		$idea = $_POST['idea'];
+		$message = "I am sorry, but there was a problem with your submission.";
+		$alertType = "alert-error";
+	}
 }
 ?>
 <!DOCTYPE html>
@@ -79,10 +108,15 @@ if(isset($_POST) && !empty($_POST)) {
 							<small>Sir Victor Hugo</small>
 						</blockquote>
 						<div class="clearfix"></div>
-						<form class="form-horizontal" method="POST" action="submit_an_idea.php" id="submit_idea_form">
+						<form class="form-horizontal" method="POST" action="/submit-an-idea" id="submit_idea_form">
 						  <fieldset>
 						    <legend>Submit an Idea</legend>
 								<p>Thank you for your interest in submitting an idea for our team.  Please fill out the following form, and we will get back to you as soon as possible.</p>
+								<?php if($message != ''): ?>
+									<div class="alert <?php echo $alertType; ?>">
+										<?php echo $message; ?>
+									</div>
+								<?php endif; ?>
 						    <div class="control-group<?php if($nameError === true){ echo ' error';}?>">
 						      <label class="control-label" for="name">Name</label>
 						      <div class="controls">
@@ -106,6 +140,12 @@ if(isset($_POST) && !empty($_POST)) {
 						      <div class="controls">
 						        <input type="text" class="input-xlarge" name="ministry" value="<?php echo $ministry; ?>">
 										<p class="help-block">Please note,  your ministry must be a Christian agency.</p>
+						      </div>
+						    </div>
+								<div class="control-group phone_number">
+									<label class="control-label" for="phone_number">Phone Number</label>
+						      <div class="controls">
+						        <input type="text" class="input-xlarge" name="phone_number">
 						      </div>
 						    </div>
 								<div class="control-group">

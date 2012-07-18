@@ -73,5 +73,21 @@ class FormValidationHelper {
 		$pattern = "/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$/i";
 		return preg_match($pattern, $this->postVars[$field]) ? true : false;
 	}
+	
+	/**
+	 * Checks to see if the Spam trap has been triggered
+	 *
+	 * @param string $spamField the field name for the spam trap
+	 * @return boolean
+	 * @access public
+	 * @author Johnathan Pulos
+	 */
+	public function isSpam($spamField) {
+		if((isset($this->postVars[$spamField])) && ($this->postVars[$spamField] != '')) {
+			return true;
+		} else{
+			return false;
+		}
+	}
 }
 ?>

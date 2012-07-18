@@ -49,6 +49,7 @@ h1{color:#232323;}
 .well{background-color:#ebebeb;}
 .margin-top-bottom{margin:10px 0px;}
 .clearfix{clear:both;display:block;}
+form#submit_idea_form div.phone_number{display:none;}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}

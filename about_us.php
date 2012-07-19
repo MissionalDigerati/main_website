@@ -58,7 +58,7 @@
 				<div class="container about-us">
 					<div class="padded_content">
 						<div class="page-header">
-						  <h2>Missional Digerati</h2>
+						  <h2>About Us</h2>
 						</div>
 						<p class="emphasis_quote">"Missional Digerati is a community of thinkers, designers and developers committed to exploiting breakthroughs in technology in order to advance the pace of reaching every person on earth with the good news of Jesus Christ."</p>
 

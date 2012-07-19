@@ -70,10 +70,10 @@
 					  <div class="padded_content">
 							<p>Missional Digerati is a mobile and web application development team that is:</p>
 							<ul>
-								<li><span class="highlighted">Nomadic in Nature</span> - We work with the greater Christian missional community.</li>
-								<li><span class="highlighted">Purposeful</span> - We only accept projects that engage and impact the least reached people groups of the world.</li>
-								<li><span class="highlighted">Open</span> - We share completed projects with organizations within the Christian missional community.</li>
-								<li><span class="highlighted">Idea Generator</span> - We are always looking for new ways to exploit technology for kingdom work.</li> 
+								<li><span class="highlighted_green">Nomadic in Nature</span> - We work with the greater Christian missional community.</li>
+								<li><span class="highlighted_green">Purposeful</span> - We only accept projects that engage and impact the least reached people groups of the world.</li>
+								<li><span class="highlighted_green">Open</span> - We share completed projects with organizations within the Christian missional community.</li>
+								<li><span class="highlighted_green">Idea Generator</span> - We are always looking for new ways to exploit technology for kingdom work.</li> 
 							</ul>
 							<div id="tweet_box"></div>
 							<div id="tweet_button_box" class="clearfix margin-bottom text-right">

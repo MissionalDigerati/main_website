@@ -26,7 +26,7 @@ if(isset($_SERVER["REQUEST_URI"])) {
 	$requestedUrl = '';
 }
 ?>
-<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<a class="btn btn-navbar nav-display-button" data-toggle="collapse" data-target=".nav-collapse">
 <span class="icon-bar"></span>
 </a>
 <a class="brand" href="/">

@@ -19,12 +19,27 @@
   * @copyright Copyright 2012 Missional Digerati
   * 
   */
+var collapsableOpen = false;
 $(document).ready(function() {
 	$('.dropdown-toggle').dropdown();
 	$('.camera_wrap').camera({fx: 'simpleFade', portrait: true, height: '35%', loader: 'bar', loaderBgColor: '#242424', loaderColor: '#CBFE01', imagePath: 'vendor/images/camera/'});
 	if($('div#tweet_box').length > 0) {
 		getLatestTweet();
 	}
+	/**
+	 * Handle the collapsable nav 
+	 */
+	$('a.nav-display-button').live('click', function(event) {
+		if(collapsableOpen === false) {
+			$('ul.nav').css({top: '0px'});
+			console.log('OPEN');
+			collapsableOpen = true;
+		}else {
+			$('ul.nav').css({top: '60px'});
+			console.log('CLOSE');
+			collapsableOpen = false;
+		}
+	});
 });
 /**
  * Get the latest tweet from MD 

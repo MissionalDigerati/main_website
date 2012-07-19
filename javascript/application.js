@@ -27,16 +27,14 @@ $(document).ready(function() {
 		getLatestTweet();
 	}
 	/**
-	 * Handle the collapsable nav 
+	 * Handle the collapsable nav.  Since we are positioning the nav with a top css, we need to reset it everytime they close the collapsable nav.
 	 */
 	$('a.nav-display-button').live('click', function(event) {
 		if(collapsableOpen === false) {
 			$('ul.nav').css({top: '0px'});
-			console.log('OPEN');
 			collapsableOpen = true;
 		}else {
 			$('ul.nav').css({top: '60px'});
-			console.log('CLOSE');
 			collapsableOpen = false;
 		}
 	});

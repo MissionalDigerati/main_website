@@ -48,16 +48,16 @@
 			<div class="inner">
 				<div class="container">
 					<div class="camera_wrap">
-					    <div data-src="images/slider/what_is_md.jpg" data-link="#about_md">
+					    <div data-src="images/slider/what_is_md.jpg" data-link="/about-us">
 					    	<div class="camera_caption">Want to learn more about Missional Digerati?</div>
 					    </div>
-					    <div data-src="images/slider/jp_mobile.jpg">
+					    <div data-src="images/slider/jp_mobile.jpg" data-link="/projects/jp-mobile">
 					    	<div class="camera_caption">Joshua Project Mobile App - Joshua Project's massive database is now accessible on a wide range of mobile and tablet devices.</div>
 					    </div>
-					    <div data-src="images/slider/sevennine.jpg">
+					    <div data-src="images/slider/sevennine.jpg" data-link="/projects/seven-nine-online">
 					    	<div class="camera_caption">79Online.org - Resourcing YOU to reach the rest!</div>
 					    </div>
-							<div data-src="images/slider/open_bible_stories.jpg">
+							<div data-src="images/slider/open_bible_stories.jpg" data-link="/projects/open-bible-stories">
 					    	<div class="camera_caption">Open Bible Stories - Crowd sourcing the translation of Jesus' message.</div>
 					    </div>
 					</div>

@@ -42,7 +42,7 @@ if(isset($_SERVER["REQUEST_URI"])) {
 			<ul class="dropdown-menu">
 				<li<?php if(strpos($requestedUrl, 'jp-mobile') !== false){ echo ' class="active"'; } ?>><a href="/projects/jp-mobile">Joshua Project Mobile App</a></li>
 				<li<?php if(strpos($requestedUrl, 'open-bible-stories') !== false){ echo ' class="active"'; } ?>><a href="/projects/open-bible-stories">Open Bible Stories</a></li>
-				<li<?php if(strpos($requestedUrl, '79-online') !== false){ echo ' class="active"'; } ?>><a href="/projects/79-online">Seven Nine Online</a></li>
+				<li<?php if(strpos($requestedUrl, 'seven-nine-online') !== false){ echo ' class="active"'; } ?>><a href="/projects/seven-nine-online">Seven Nine Online</a></li>
 			</ul>
 		</li>
 		<li<?php if($requestedUrl =='submit-an-idea'){ echo ' class="active"'; } ?>><a href="/submit-an-idea">Submit an Idea</a></li>
@@ -55,7 +55,7 @@ if(isset($_SERVER["REQUEST_URI"])) {
 <?php
 /**
  * Trigger the dropdown if we are on a projects page
- * $('a.dropdown-toggle').trigger('click');
+ * 
  * @author Johnathan Pulos
  */
 if(strpos($requestedUrl, 'projects') !== false){ 

@@ -4,6 +4,6 @@
 	RewriteRule submit-an-idea /submit_an_idea.php
 	RewriteRule contact-us /contact_us.php
 	RewriteRule projects/jp-mobile projects/jp_mobile.php [L]
-	RewriteRule projects/79-online projects/79_online.php [L]
+	RewriteRule projects/seven-nine-online projects/79_online.php [L]
 	RewriteRule projects/open-bible-stories projects/open_bible_stories.php [L]
 </IfModule>

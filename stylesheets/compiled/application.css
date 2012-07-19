@@ -50,6 +50,7 @@ div.container.home ul li{padding:5px 0px;margin-left:20px;}
 h1,h2,h3,h4{color:#232323;}
 h4{font-size:16px;font-style:italic;margin-bottom:5px;}
 .well{background-color:#ebebeb;}
+.form-actions{background-color:transparent;}
 .margin-top-bottom{margin:10px 0px;}
 .margin-bottom{margin:0px 0px 10px;}
 .text-right{text-align:right;}

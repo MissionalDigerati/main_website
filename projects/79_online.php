@@ -93,13 +93,13 @@
 							<div class="feature_box">
 									<div class="featured">
 										<img src="/images/site/projects/seven_nine/multiple_languages.jpg" alt="Computer with Website on It" class="hidden-phone">
-										<h4>Multiples Languages</h4>
-										<p>Currently translated in English, Portuguese, and Russian with plans to translate into other language.</p>
+										<h4>Multiple Languages</h4>
+										<p>Website is currently translated in English, Portuguese, and Russian with plans to translate into many other language.</p>
 									</div>
 									<div class="featured_last">
 										<img src="/images/site/projects/seven_nine/resources.jpg" alt="Macbook Air with website on it" class="hidden-phone">
-										<h4>Multiples Resource Types</h4>
-										<p>Designed for every type of learner,  resources are available as video, audio, and text documents.</p>
+										<h4>Multiple Resource Types</h4>
+										<p>Designed for every type of learner.  Resources are available as video, audio, PowerPoint Presentations, Word, and PDF documents.</p>
 									</div>
 									<div class="featured">
 										<img src="/images/site/projects/seven_nine/free.jpg" alt="Free Bird" class="hidden-phone">

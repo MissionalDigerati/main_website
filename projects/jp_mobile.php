@@ -96,7 +96,7 @@
 									<div class="featured_last">
 										<img src="/images/site/projects/jp_mobile/g1_with_app.jpg" alt="G1 With App" class="hidden-phone">
 										<h4>Multiple Platforms</h4>
-										<p>Harnessing the power of <a href="http://jquerymobile.com/" target="_blank">JQuery Mobile</a>,  you can access the data on many of the common mobile phone and tablet devices.  This includes iOS, Android, Blackberry, and Windows based mobile phones and tablet devices.  To see a complete list of devices,  please visit the <a href="http://jquerymobile.com/gbs/" target="_blank">JQuery Mobile Documentation</a></p>
+										<p>Harnessing the power of <a href="http://jquerymobile.com/" target="_blank">JQuery Mobile</a>,  you can access the data on many of the common mobile phone and tablet devices.  This includes iOS, Android, Blackberry, and Windows based mobile phones and tablet devices.  To see a complete list of devices,  please visit the <a href="http://jquerymobile.com/gbs/" target="_blank">JQuery Mobile Documentation</a>.</p>
 									</div>
 									<div class="featured">
 										<img src="/images/site/projects/jp_mobile/blackberry_w_app.jpg" alt="Blackberry with App" class="hidden-phone">

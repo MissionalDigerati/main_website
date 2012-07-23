@@ -151,7 +151,7 @@ if(isset($_POST) && !empty($_POST)) {
 								<div class="tab-pane<?php if($currentTab == 'staffing'){ echo " active";} ?>" id="serve-tab">
 									<form class="form-horizontal" method="POST" action="/contribute" id="contribute_skills_form">
 									  <fieldset>
-									    <legend>Volunteer/Join Missional Digerati</legend>
+									    <legend>Volunteer/Join Us</legend>
 											<p>Missional Digerati is powered by passionate volunteers and full-time staff that love God, and desire to leverage technology for kingdom purposes.  If you are interested in donating a few hours a week, or participating full-time,  please fill out the following form for more information.</p>
 											<?php if($message != ''): ?>
 												<div class="alert <?php echo $alertType; ?>">

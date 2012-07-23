@@ -48,8 +48,8 @@ if(isset($_SERVER["REQUEST_URI"])) {
 		<li<?php if($requestedUrl =='submit-an-idea'){ echo ' class="active"'; } ?>><a href="/submit-an-idea">Submit an Idea</a></li>
 		<li><a href="https://github.com/organizations/MissionalDigerati" target="_blank">Code Repo</a></li>
 		<li<?php if($requestedUrl =='contact-us'){ echo ' class="active"'; } ?>><a href="/contact-us">Contact Us</a></li>
-		<!-- <li class="visible-phone"><a href="/" title="Donate">Donate</a></li>
-				<li class="donate hidden-phone"><div><a class="btn btn-primary" href="/donate" title="Donate">Donate</a></div></li> -->
+		<li class="visible-phone"><a href="/contribute">Contribute</a></li>
+		<li class="donate hidden-phone"><div><a class="btn btn-info" href="/contribute">Contribute</a></div></li>
 	</ul>
 </div>
 <?php

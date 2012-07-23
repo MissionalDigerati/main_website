@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 	RewriteRule about-us /about_us.php [L]
+	RewriteRule contribute /partner.php [L]
 	RewriteRule submit-an-idea /submit_an_idea.php
 	RewriteRule contact-us /contact_us.php
 	RewriteRule projects/jp-mobile projects/jp_mobile.php [L]

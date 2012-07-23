@@ -41,6 +41,11 @@ $emailSettings = array(
 													array(	'to'=> 'email@yahoo.com', 
 																	'from' => 'email@yahoo.com', 
 																	'from_name' => 'Missional Digerati Website'
+															),
+												'volunteer' => 
+													array(	'to'=> 'email@yahoo.com', 
+																	'from' => 'email@yahoo.com', 
+																	'from_name' => 'Missional Digerati Website'
 															)
 												);
 ?>

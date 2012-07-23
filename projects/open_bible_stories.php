@@ -82,7 +82,7 @@
 									</div>
 								</div>
 							</div>
-						<p><a href="http://www.openbiblestories.com/" target="_blank">Open Bible Stories</a> is an open project to create A Visual Mini-Bible in Every Language.  In order to translate these visual stories, we are building a video translation API that will be powered by online crowdsourcing.  Crowdsourcing provides a way for any person around the world to help in the translation of these stories.  These individuals will simply upload their audio files to a website, and the API will process and piece together a translated version of the video.  The ultimate goal is to create a tool that any mission agency can use to aid in the translation of their video resources.  To learn more about Open Bible Stories,  please visit the <a href="http://www.dsmedia.org/blog/how-open-bible-stories-works" target="_blank">Distant Shores Media Blog</a>.</p>
+						<p><a href="http://www.openbiblestories.com/" target="_blank">Open Bible Stories</a> is an open project to create A Visual Mini-Bible in Every Language.  In order to translate these visual stories, we are building a video translation API that will be powered by online crowd sourcing.  Crowd sourcing provides a way for any person around the world to help in the translation of these stories.  These individuals will simply upload their audio files to a website, and the API will process and piece together a translated version of the video.  For more information on the API process, check out this <a href="#HowItWorks">API Diagram</a>.  The ultimate goal is to create a tool that any mission agency can use to aid in the translation of their video resources.  To learn more about Open Bible Stories,  please visit the <a href="http://www.dsmedia.org/blog/how-open-bible-stories-works" target="_blank">Distant Shores Media Blog</a>.</p>
 							<div class="page-header">
 							  <h3>Key Features</h3>
 							</div>
@@ -104,6 +104,11 @@
 									</div>
 									<div class="featured_last"></div>
 							</div>
+							<div class="page-header">
+							  <h3><a name="HowItWorks"></a>How the API Works</h3>
+							</div>
+							<img src="/images/site/projects/obs/obs-system-diagram.png" alt="How it Works">
+							
 							<p><small>The street sign is a derivative work of <a href="http://en.wikipedia.org/wiki/User:Destron_Commander" target="_blank">Destron Commander on Wikipedia</a></small></p>
 							
 						</div>

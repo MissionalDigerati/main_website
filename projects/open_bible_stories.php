@@ -25,7 +25,7 @@
 <html>
 	<head>
 		<?php 
-			$title = "79 Online";
+			$title = "Open Bible Stories";
 			require_once('../partials/site_wide_css_js.inc.php'); 
 		?>
 	</head>

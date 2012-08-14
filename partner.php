@@ -135,8 +135,8 @@ if(isset($_POST) && !empty($_POST)) {
 				<div class="container about-us">
 					<div class="padded_content">
 						<blockquote class="pull-right margin-top-bottom">
-							<p>If you think you're too small to be effective, then you haven't spent a night in bed with a mosquito.</p>
-							<small>Arianna Huffington</small>
+							<p>If you think you're too small to have an impact, try going to bed with a mosquito.</p>
+							<small>Anita Roddick</small>
 						</blockquote>
 						<div class="clearfix"></div>
 						<div class="tabbable tabs-top">

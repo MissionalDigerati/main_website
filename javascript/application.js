@@ -34,7 +34,7 @@ $(document).ready(function() {
 			$('ul.nav').css({top: '0px'});
 			collapsableOpen = true;
 		}else {
-			$('ul.nav').css({top: '60px'});
+			$('ul.nav').css({top: '10px'});
 			collapsableOpen = false;
 		}
 	});

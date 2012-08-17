@@ -14,9 +14,9 @@ div.social_share div.add_this_icons{position:relative;height:45px;}div.social_sh
 .navbar-inner{background-color:#232323;background-image:none;background-image:none;background-image:none;background-image:none;background-image:none;background-image:none;background-repeat:no-repeat;filter:none;}
 ul.dropdown-menu li>a:hover{background-color:#cbfe01;color:#232323;}
 .navbar{margin-bottom:0px;}.navbar .brand{padding:16px 20px;}
-.navbar .nav{top:60px;}.navbar .nav li>a{text-transform:uppercase;}.navbar .nav li>a:hover{text-transform:uppercase;}
+.navbar div.donate{margin:10px 0px 0px;}
+.navbar .nav{top:10px;clear:right;}.navbar .nav li>a{text-transform:uppercase;}.navbar .nav li>a:hover{text-transform:uppercase;}
 .navbar .nav .active>a{background-color:#232323;}.navbar .nav .active>a:hover{background-color:#232323;}
-.navbar .nav li.donate .btn{margin-left:20px;}
 .slider .inner{text-align:center;}.slider .inner .container{padding-bottom:20px;}
 .content .inner .container{min-height:200px;}
 .padded_content{padding:0 2%;width:96%;}
@@ -58,7 +58,7 @@ h4{font-size:16px;font-style:italic;margin-bottom:5px;}
 form#submit_idea_form div.phone_number{display:none;}
 form#contact_us_form div.city,form#contribute_skills_form div.city{display:none;}
 fieldset p{padding-top:10px;}
-.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
+@media (max-width:975px){div.donate{display:none;} li.contribute-link{display:list-item !important;}}.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
 .input-block-level{display:block;width:100%;min-height:28px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}

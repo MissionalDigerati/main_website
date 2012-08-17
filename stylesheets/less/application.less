@@ -107,8 +107,12 @@ ul.dropdown-menu {
 	.brand {
 		padding: 16px 20px;
 	}
+	div.donate {
+		margin: 10px 0px 0px;
+	}
 	.nav {
-		top: 60px;
+		top: 10px;
+		clear: right;
 		
 		li > a {
 			text-transform: uppercase;
@@ -126,10 +130,6 @@ ul.dropdown-menu {
 				background-color: @mdPrimaryColor;
 			}
 			
-		}
-		
-		li.donate .btn {
-			margin-left: 20px;
 		}
 		
 	}
@@ -299,6 +299,18 @@ form#contact_us_form, form#contribute_skills_form {
 
 fieldset p {
 	padding-top: 10px;
+}
+
+/* hide and show nav*/
+@media (max-width: 975px) {
+	
+	div.donate {
+		display: none;
+	}
+	
+	li.contribute-link {
+		display: list-item !important;
+	}
 }
 @import "stylesheets/less/projects.less";
 @import "stylesheets/less/mobile.application.less";

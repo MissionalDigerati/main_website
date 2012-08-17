@@ -47,7 +47,7 @@
 		<div class="video_player">
 			<div class="inner">
 				<div class="container">
-					<div class="video_container">
+					<div class="video_container resizable-video">
 						<iframe src="http://www.youtube.com/embed/wx7HNnJVb6A?wmode=transparent " frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>

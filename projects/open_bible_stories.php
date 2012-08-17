@@ -78,7 +78,7 @@
 										<p><strong>Status:</strong> In Progress<p>
 										<p><strong>Type:</strong> Web Based API<p>
 										<p></p>
-										<a href="https://github.com/MissionalDigerati/video_translator_service" target="_blank" class="btn btn-primary btn-large">View Source Code <i class="icon-white icon-share-alt"></i></a>
+										<a href="https://github.com/MissionalDigerati/vts_web_interface" target="_blank" class="btn btn-primary btn-large">View Source Code <i class="icon-white icon-share-alt"></i></a>
 									</div>
 								</div>
 							</div>

@@ -34,7 +34,7 @@ $skills = '';
 $message = "";
 $phoneNumber = '';
 $alertType = "";
-$currentTab = "staffing";
+$currentTab = "donate";
 $staffingType = "volunteer";
 if(isset($_POST) && !empty($_POST)) {
 	$validate = new FormValidationHelper($_POST);
@@ -141,13 +141,23 @@ if(isset($_POST) && !empty($_POST)) {
 						<div class="clearfix"></div>
 						<div class="tabbable tabs-top">
 							<ul class="nav nav-tabs">
-						    <!-- <li<?php if($currentTab == 'donate'){ echo " class='active'";} ?>><a href="#donate-tab" data-toggle="tab">Donate</a></li> -->
-								<!-- <li<?php if($currentTab == 'staffing'){ echo " class='active'";} ?>><a href="#serve-tab" data-toggle="tab">Volunteer/Join</a></li> -->
+						    <li<?php if($currentTab == 'donate'){ echo " class='active'";} ?>><a href="#donate-tab" data-toggle="tab">Donate</a></li>
+							<li<?php if($currentTab == 'staffing'){ echo " class='active'";} ?>><a href="#serve-tab" data-toggle="tab">Volunteer/Join</a></li>
 						  </ul>
 						  <div class="tab-content">
-						    <!-- <div class="tab-pane<?php if($currentTab == 'donate'){ echo " active";} ?>" id="donate-tab">
-									<p>Donate Now</p>
-								</div> -->
+						        <div class="tab-pane<?php if($currentTab == 'donate'){ echo " active";} ?>" id="donate-tab">
+									<div class="box100 staff">
+        								<div class="staff_pic">
+        									<img src="/images/site/johnathan_pulos.jpg" alt="Johnathan Pulos">
+        								</div>
+        								<div class="staff_bio">
+        									<h3>Johnathan Pulos</h3>
+        								  <h4>Project Director &amp; Programmer</h4>
+        								  <p>If you would like to financially support Johnathan &amp; Candice Pulos,  please click the button below.</p>
+        								  <p><a class="btn btn-primary" href="http://www.onthesamepath.com/donate">Donate Now</a></p>
+        								</div>
+        							</div>
+								</div>
 								<div class="tab-pane<?php if($currentTab == 'staffing'){ echo " active";} ?>" id="serve-tab">
 									<form class="form-horizontal" method="POST" action="/contribute" id="contribute_skills_form">
 									  <fieldset>

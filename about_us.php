@@ -87,6 +87,8 @@
 								  <p>Johnathan has since been developing websites for over 6 years,  programming in languages like PHP and Ruby.  Over the last year,  Johnathan has challenged himself to learn Objective C, the language used for developing iPhone applications.  A few months ago,  he launched his first iPhone App,  titled SGCC, for his church San Gabriel Community Church.</p>
 								  <p>Johnathan believes the key to being a great programmer is always desiring to learn  new things.  At the rate technology changes, programmers must challenge themselves to become life long learners.</p>
 								  <p>Johnathan is married to his wife Candice, and has 2 spoiled dogs named Max and Mandy.  You can contact Johnathan at johnathan[at]missionaldigerati.org.</p>
+								  <p>If you would like to financially support Johnathan &amp; Candice Pulos,  please click the button below.</p>
+  								  <p><a class="btn btn-primary" href="http://www.onthesamepath.com/donate">Donate Now</a></p>
 									<div class="well">
 								  	<p><strong>Personal Website:</strong> <a href="http://www.codemis.com" target="_blank">Codemis.com</a><p>
 								  	<p><strong>Support Website:</strong> <a href="http://www.onthesamepath.com" target="_blank">OntheSamePath.com</a><p>

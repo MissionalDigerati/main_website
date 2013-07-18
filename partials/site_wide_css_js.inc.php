@@ -36,4 +36,5 @@
 <link rel="stylesheet" href="/vendor/stylesheets/jquery.colorbox.css" type="text/css" charset="utf-8">
 <link rel="stylesheet" href="/stylesheets/compiled/custom_bootstrap.css" type="text/css" charset="utf-8">
 <link rel="stylesheet" href="/stylesheets/compiled/application.css" type="text/css" charset="utf-8">
+<link rel="shortcut icon" href="/favicon.ico" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
